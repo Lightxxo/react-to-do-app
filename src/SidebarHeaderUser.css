@@ -1,46 +1,45 @@
 /* Container for the sidebar-header-user */
 .sidebar-header-user {
-    display: flex;              /* Align profile picture and username horizontally */
-    align-items: center;        /* Vertically center the items */
-    gap: 15px;                  /* Space between profile picture and username */
-    padding: 20px;              /* Some padding around the container */
-  }
-  
-  /* Container for profile picture */
-  .profile-container {
-    display: flex;              /* Flexbox to align image and fallback text inside */
-    align-items: center;        /* Vertically center profile picture */
-  }
-  
-  /* Circular profile picture and placeholder (fallback) */
-  .profile-picture {
-    width: 50px;                /* Width of the profile circle */
-    height: 50px;               /* Height of the profile circle */
-    background-color: indianred; /* Background color for the solid circle */
-    border-radius: 50%;          /* Make it circular */
-    display: flex;               /* Flexbox to center content */
-    justify-content: center;     /* Horizontally center content */
-    align-items: center;         /* Vertically center content */
-    overflow: hidden;            /* Hide anything that overflows the circle */
-    position: relative;          /* Position for text/icons inside */
-  }
-  
-  /* Fallback text inside the profile picture (initials or other text) */
-  .profile-picture span {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    color:black;               /* Text color (white) for initials */
-    font-weight: bold;
-    text-align: center;        /* Center the initials */
-  }
-  
-  /* Styling for the username text beside the profile picture */
-  .user-text p {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;            /* Set font size for the username */
-    color:white;                /* Dark color for the username */
-    margin: 0;                  /* Remove default margin */
-    padding-left: 5px;
-    font-weight: 600;         /* Add space between image and username */
-  }
-  
+  display: flex;              /* Align profile picture and username horizontally */
+  align-items: center;        /* Vertically center the items */
+  gap: 15px;                  /* Space between profile picture and username */
+  padding: 20px;              /* Some padding around the container */
+}
+
+/* Container for profile picture */
+.profile-container {
+  display: flex;              /* Flexbox to align image and fallback text inside */
+  align-items: center;        /* Vertically center profile picture */
+}
+
+/* Circular profile picture and placeholder (fallback) */
+.profile-picture {
+  width: 40px;                /* Width of the profile circle */
+  height: 40px;               /* Height of the profile circle */
+  background: var(--background-color-profile-picture); /* Using variable for profile background */
+  border-radius: 50%;          /* Make it circular */
+  display: flex;               /* Flexbox to center content */
+  justify-content: center;     /* Horizontally center content */
+  align-items: center;         /* Vertically center content */
+  overflow: hidden;            /* Hide anything that overflows the circle */
+  position: relative;          /* Position for text/icons inside */
+}
+
+/* Fallback text inside the profile picture (initials or other text) */
+.profile-picture span {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: var(--text-color-default); /* Using variable for text color */
+  font-weight: bold;
+  text-align: center;        /* Center the initials */
+}
+
+/* Styling for the username text beside the profile picture */
+.user-text p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;            /* Set font size for the username */
+  color: var(--text-color-default); /* Using variable for text color */
+  margin: 0;                  /* Remove default margin */
+  padding-left: 5px;
+  font-weight: 600;           /* Add space between image and username */
+}

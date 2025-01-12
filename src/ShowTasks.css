@@ -1,0 +1,73 @@
+/* Main container for ShowTasks */
+.show-tasks-container {
+    padding: 20px;
+    background-color: var(--background-color-main);
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Title for the section */
+  .show-tasks-container p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-color-default);
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 5px solid var(--primary-color);
+  }
+  
+  /* Styling for task items */
+  .show-tasks-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    transition: transform 0.3s ease;
+  }
+  
+  .show-tasks-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Task Name */
+  .show-tasks-item p.task-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-color-default);
+    margin: 5px 0;
+  }
+  
+  /* Task Description */
+  .show-tasks-item p.task-description {
+    font-size: 1rem;
+    color: var(--text-color-dark);
+    margin: 5px 0;
+  }
+  
+  /* Due Date */
+  .show-tasks-item p.due-date {
+    font-size: 1rem;
+    color: var(--primary-color);
+    margin: 5px 0;
+    font-style: italic;
+  }
+  
+  /* For the 'No tasks available' message */
+  .no-tasks-message {
+    font-size: 1.2rem;
+    color: var(--text-color-default);
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* For hover effect on task */
+  .show-tasks-item:hover {
+    background-color: var(--hover-background-color);
+  }
+  

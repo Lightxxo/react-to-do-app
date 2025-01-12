@@ -1,4 +1,3 @@
-/* In your main CSS file (e.g., index.css or App.css) */
 *,
 *::before,
 *::after {
@@ -10,5 +9,11 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #fff; /* Optional: set a background color */
+  background: var(--background-color-app); /* Using variable for background color */
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--text-color-default); /* Using variable for text color */
+  font-weight: 600;
 }

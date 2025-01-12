@@ -1,0 +1,37 @@
+/* Container for the circular icon */
+.sidebar-placeholder-icon-container {
+    width: 40px; /* Size of the circle */
+    height: 40px; /* Size of the circle */
+    border-radius: 50%; /* Makes the container circular */
+    background-color: var(--background-color-app); /* Background color matching the app's theme */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the icon within the circle */
+    overflow: hidden; /* Prevent clipping of the icon */
+    
+    /* Subtle drop shadow (using theme color) */
+    box-shadow: 0 2px 4px var(--shadow-color-default);
+    
+    transition: box-shadow 0.2s ease, transform 0.2s ease; /* Smooth transition for hover and click effects */
+  }
+  
+  /* Icon itself */
+  .sidebar-placeholder-icon {
+    width: 30px; /* Set the icon size */
+    height: 30px; /* Set the icon size */
+    object-fit: contain; /* Ensures the icon fits inside the circle without clipping */
+    border-radius: 50%; /* Optional: Add border-radius to the icon itself */
+  }
+  
+  /* Hover effect */
+  .sidebar-placeholder-icon-container:hover {
+    box-shadow: 0 4px 8px var(--shadow-color-hover); /* Darker shadow on hover */
+    transform: scale(1.1); /* Slight scale effect on hover */
+  }
+  
+  /* Click effect (Active state) */
+  .sidebar-placeholder-icon-container:active {
+    transform: scale(0.95); /* Slightly shrink the icon on click */
+  }
+  

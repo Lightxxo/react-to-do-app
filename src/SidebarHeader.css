@@ -1,0 +1,13 @@
+.sidebar-header {
+  display: flex;               /* Use Flexbox to position child elements */
+  justify-content: space-between; /* Push children to the left and right */
+  align-items: center;         /* Vertically align items in the center */
+  padding: 10px;               /* Padding around the header */
+}
+
+/* Style for the sidebar-header-placeholder-icons-layout */
+.sidebar-header-placeholder-icons-layout {
+  display: flex;               /* Make the icon layout horizontal */
+  gap: 10px;                   /* Add space between icons */
+  margin-right: 10px;
+}

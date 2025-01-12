@@ -1,0 +1,23 @@
+.main-content-header{
+    padding: 20px;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content-header img {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px; 
+    object-fit: contain;
+  }
+  
+
+.main-content-header p {
+    font-weight: 400;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 200;
+  }

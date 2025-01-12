@@ -1,0 +1,33 @@
+:root {
+  /* Background colors */
+  --background-color-app: #ffffff; /* Clean, white background for the main content */
+  --background-color-sidebar: linear-gradient(145deg, #e2e2d1, #f0f0e2); /* Very desaturated yellow-beige gradient for the sidebar */
+  --background-color-sidebar-item-hover: linear-gradient(145deg, #e1d9b6, #f1ebc1); /* Almost neutral yellow-beige hover effect */
+  --background-color-sidebar-item-active: linear-gradient(145deg, #d8d096, #e0d488); /* Soft, greyish yellow for active sidebar item */
+  --background-color-main: #f3f3f3; /* Light grey for content background */
+  --background-color-profile-picture: #d0c8a5; /* Very muted golden yellow with a strong grey undertone for profile picture */
+  /* Primary Color */
+  --primary-color: #4e3d2a; /* Warm, muted brownish-grey for the primary accent */
+  
+  /* Interactive Elements */
+  --button-bg: #f4c542; /* Soft, warm yellow for buttons */
+  --button-hover-bg: #e0b330; /* Slightly darker yellow for hover effect */
+  
+  /* Input/Field colors */
+  --input-bg: #fff9e6; /* Light, warm background for inputs */
+  --input-border: #d3d3d3; /* Neutral, light border color */
+  --input-border-focus: #4e3d2a; /* Darker accent color for focus */
+  
+  /* Text colors */
+  --text-color-default: #2a2a2a; /* Very dark grey for readability */
+  --text-color-light: #ffffff; /* Almost white with a soft yellow tint */
+  --text-color-muted: #777777; /* Muted grey for secondary text */
+  
+  /* Miscellaneous colors */
+  --shadow-color-inner: rgba(255, 255, 255, 0.5); /* Inner shadow for blurred edges */
+  --shadow-color-outer: rgba(0, 0, 0, 0.1); /* Outer shadow color for depth */
+  
+  /* Status Colors */
+  --error-color: #ff4747; /* Bright red for error messages */
+  --success-color: #6bbf73; /* Subtle green for success feedback */
+}

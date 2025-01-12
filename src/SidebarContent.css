@@ -1,0 +1,49 @@
+/* Sidebar content container */
+.sidebar-content {
+  padding: 20px;
+  color: var(--text-color-default); /* Using variable for text color */
+  height: 100%; /* Full height of the sidebar */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Sidebar content items container */
+.sidebar-content-items {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  gap: 5px; /* Space between the items */
+}
+
+/* Individual sidebar content item */
+.sidebar-content-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px; /* Rounded corners for each item */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+}
+
+/* Sidebar item hover effect */
+.sidebar-content-item:hover {
+  background: var(--background-color-sidebar-item-hover); /* Using variable for hover background */
+}
+
+/* Sidebar item img styling */
+.sidebar-content-item img {
+  width: 30px; /* Set a fixed width for the icon */
+  height: 30px; /* Set a fixed height for the icon */
+  margin-right: 10px; /* Space between icon and text */
+  object-fit: contain; /* Ensure the image scales without distortion */
+}
+
+/* Sidebar item text styling */
+.sidebar-content-item p {
+  margin: 0; /* Remove default margin around the paragraph */
+  font-weight: 200;
+}
+
+/* Active state for the selected item (optional) */
+.sidebar-content-item.active {
+  background: var(--background-color-sidebar-item-active); /* Using variable for active background */
+}

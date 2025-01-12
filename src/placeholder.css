@@ -1,0 +1,9 @@
+p {
+    position: relative; /* or absolute, fixed */
+    z-index: 9999; /* High value to ensure it appears on top */
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+  }
+  
